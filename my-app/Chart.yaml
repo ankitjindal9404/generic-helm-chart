@@ -1,0 +1,15 @@
+apiVersion: v2
+
+#name can be changes
+name: my-app
+description: A Helm chart for Kubernetes
+
+#change can be to library if needed.
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+version: 0.1.0
+
+#it should chnage as per Docker image version
+appVersion: "1.16.0"
